@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+	// Tabs
+
 	$('#menu-tabs li').click(function(){
 		var thisClass = this.className.slice(0,2);
 		
@@ -12,9 +15,16 @@ $(document).ready(function() {
 	});
 	$('li.t1').click();
 
+
+	// Slick-slider
+
 	$('.slideshow-container').slick({
   
-  });
+ 	});
+
+
+	// Mobile-menu
+
 	var menuElem = document.getElementById('touch-menu');
     var titleElem = menuElem.querySelector('.title');
 
